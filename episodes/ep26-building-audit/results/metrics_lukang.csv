@@ -1,0 +1,4 @@
+layer,features,count_ratio_pct,area_ratio_pct,gross_truth_inside_pct,one2one_matched,one2one_coverage_pct,one2one_precision_pct,ghost_features,ghost_pct,swallow_max,shift_median_m,area_sum_m2
+Overture,2011,40.16,66.54,47.6,1671,31.55,83.09,791,39.33,26,5.21,757605.5
+OSM,889,17.75,36.5,38.42,818,15.89,92.01,110,12.37,26,1.79,415602.0
+WSF3D,628,12.54,420.76,99.34,168,3.31,26.75,64,10.19,62,7.02,4790936.7

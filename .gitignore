@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+*.pmtiles
+*.gpkg
+*.shp
+*.dbf
+*.zip
+*.mp4
+*.wav
+*.mp3
+.env
+*.log
+.DS_Store
+Thumbs.db

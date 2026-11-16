@@ -1,0 +1,226 @@
+{
+  "episode": "EP26",
+  "slug": "building-audit",
+  "title": "Free building footprints vs official NLSC buildings — three test sites in Taiwan",
+  "asof": "2026-11-14",
+  "video": {
+    "channel": "YITU",
+    "episode": 26,
+    "lang": [
+      "en",
+      "zh"
+    ]
+  },
+  "question": "How much of the official building stock do free global footprints actually cover, one-to-one?",
+  "sites": {
+    "yonghe": {
+      "name": "Yonghe, New Taipei",
+      "bbox_km": [
+        2.4,
+        2.2
+      ],
+      "truth_buildings": 18650
+    },
+    "lukang": {
+      "name": "Lukang, Changhua",
+      "bbox_km": [
+        2.4,
+        2.2
+      ],
+      "truth_buildings": 5008
+    },
+    "yilan": {
+      "name": "Yilan City, Yilan",
+      "bbox_km": [
+        2.4,
+        2.2
+      ],
+      "truth_buildings": 13379
+    }
+  },
+  "layers_tested": [
+    "Overture",
+    "OSM",
+    "WSF3D"
+  ],
+  "metrics": {
+    "yonghe": {
+      "Overture": {
+        "features": 6547,
+        "count_ratio_pct": 35.1,
+        "area_ratio_pct": 51.26,
+        "gross_truth_inside_pct": 40.82,
+        "one2one_matched": 6030,
+        "one2one_coverage_pct": 29.58,
+        "one2one_precision_pct": 92.1,
+        "ghost_features": 2591,
+        "ghost_pct": 39.58,
+        "swallow_max": 37,
+        "shift_median_m": 4.34,
+        "area_sum_m2": 1476109.4
+      },
+      "OSM": {
+        "features": 2861,
+        "count_ratio_pct": 15.34,
+        "area_ratio_pct": 31.6,
+        "gross_truth_inside_pct": 20.94,
+        "one2one_matched": 2561,
+        "one2one_coverage_pct": 12.02,
+        "one2one_precision_pct": 89.51,
+        "ghost_features": 772,
+        "ghost_pct": 26.98,
+        "swallow_max": 37,
+        "shift_median_m": 2.99,
+        "area_sum_m2": 909867.9
+      },
+      "WSF3D": {
+        "features": 885,
+        "count_ratio_pct": 4.75,
+        "area_ratio_pct": 191.73,
+        "gross_truth_inside_pct": 100.0,
+        "one2one_matched": 575,
+        "one2one_coverage_pct": 3.07,
+        "one2one_precision_pct": 64.97,
+        "ghost_features": 54,
+        "ghost_pct": 6.1,
+        "swallow_max": 112,
+        "shift_median_m": 6.55,
+        "area_sum_m2": 5521328.6
+      }
+    },
+    "lukang": {
+      "Overture": {
+        "features": 2011,
+        "count_ratio_pct": 40.16,
+        "area_ratio_pct": 66.54,
+        "gross_truth_inside_pct": 47.6,
+        "one2one_matched": 1671,
+        "one2one_coverage_pct": 31.55,
+        "one2one_precision_pct": 83.09,
+        "ghost_features": 791,
+        "ghost_pct": 39.33,
+        "swallow_max": 26,
+        "shift_median_m": 5.21,
+        "area_sum_m2": 757605.5
+      },
+      "OSM": {
+        "features": 889,
+        "count_ratio_pct": 17.75,
+        "area_ratio_pct": 36.5,
+        "gross_truth_inside_pct": 38.42,
+        "one2one_matched": 818,
+        "one2one_coverage_pct": 15.89,
+        "one2one_precision_pct": 92.01,
+        "ghost_features": 110,
+        "ghost_pct": 12.37,
+        "swallow_max": 26,
+        "shift_median_m": 1.79,
+        "area_sum_m2": 415602.0
+      },
+      "WSF3D": {
+        "features": 628,
+        "count_ratio_pct": 12.54,
+        "area_ratio_pct": 420.76,
+        "gross_truth_inside_pct": 99.34,
+        "one2one_matched": 168,
+        "one2one_coverage_pct": 3.31,
+        "one2one_precision_pct": 26.75,
+        "ghost_features": 64,
+        "ghost_pct": 10.19,
+        "swallow_max": 62,
+        "shift_median_m": 7.02,
+        "area_sum_m2": 4790936.7
+      }
+    },
+    "yilan": {
+      "Overture": {
+        "features": 3688,
+        "count_ratio_pct": 27.57,
+        "area_ratio_pct": 59.31,
+        "gross_truth_inside_pct": 53.3,
+        "one2one_matched": 3174,
+        "one2one_coverage_pct": 22.95,
+        "one2one_precision_pct": 86.06,
+        "ghost_features": 1203,
+        "ghost_pct": 32.62,
+        "swallow_max": 33,
+        "shift_median_m": 3.74,
+        "area_sum_m2": 1152393.6
+      },
+      "OSM": {
+        "features": 472,
+        "count_ratio_pct": 3.53,
+        "area_ratio_pct": 15.41,
+        "gross_truth_inside_pct": 3.24,
+        "one2one_matched": 313,
+        "one2one_coverage_pct": 2.19,
+        "one2one_precision_pct": 66.31,
+        "ghost_features": 190,
+        "ghost_pct": 40.25,
+        "swallow_max": 15,
+        "shift_median_m": 3.65,
+        "area_sum_m2": 299485.6
+      },
+      "WSF3D": {
+        "features": 694,
+        "count_ratio_pct": 5.19,
+        "area_ratio_pct": 253.64,
+        "gross_truth_inside_pct": 99.86,
+        "one2one_matched": 314,
+        "one2one_coverage_pct": 2.32,
+        "one2one_precision_pct": 45.24,
+        "ghost_features": 58,
+        "ghost_pct": 8.36,
+        "swallow_max": 157,
+        "shift_median_m": 6.21,
+        "area_sum_m2": 4928067.1
+      }
+    }
+  },
+  "metric_definitions": {
+    "count_ratio_pct": "layer feature count / truth buildings * 100",
+    "area_ratio_pct": "sum(layer polygon area) / sum(truth footprint area) * 100",
+    "one2one_coverage_pct": "truth buildings matched 1:1 by a layer polygon / truth buildings * 100",
+    "one2one_precision_pct": "layer polygons that are a genuine 1:1 match / all layer polygons * 100",
+    "ghost_pct": "layer polygons with no truth building under them / all layer polygons * 100",
+    "swallow_max": "max number of truth buildings swallowed by a single layer polygon",
+    "shift_median_m": "median centroid distance between matched pairs (metres)"
+  },
+  "data_sources": [
+    {
+      "role": "ground truth",
+      "name": "NLSC building footprints (I3S harvest mirror)",
+      "url": "https://huggingface.co/datasets/yhzkiki/taiwan-nlsc-buildings",
+      "license": "Government Open Data TW 1.0 (attribution; non-commercial)"
+    },
+    {
+      "role": "candidate",
+      "name": "Overture Maps release 2026-10-21.0",
+      "url": "https://overturemaps.org",
+      "license": "ODbL"
+    },
+    {
+      "role": "candidate",
+      "name": "OpenStreetMap via Overpass API",
+      "url": "https://overpass-api.de",
+      "license": "ODbL"
+    },
+    {
+      "role": "candidate",
+      "name": "WSF3D 90 m (DLR World Settlement Footprint 3D)",
+      "url": "https://geoservice.dlr.de/web/maps/eoc:wsf3d",
+      "license": "DLR terms"
+    }
+  ],
+  "reproduce": {
+    "entry": "python scripts/ep26_site_runner.py --site yonghe",
+    "verify": "python verify.py",
+    "env": [
+      "python>=3.11",
+      "geopandas",
+      "shapely>=2",
+      "pyproj",
+      "requests"
+    ]
+  }
+}
