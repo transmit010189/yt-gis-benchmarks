@@ -1,5 +1,11 @@
 # yt-gis-benchmarks — reproducible GIS benchmarks from the YITU channel
 
+[![verify](https://github.com/transmit010189/yt-gis-benchmarks/actions/workflows/verify.yml/badge.svg)](https://github.com/transmit010189/yt-gis-benchmarks/actions/workflows/verify.yml)
+
+> **For AI agents:** open `AGENTS.md` inside an episode folder and follow it. Cheap path is ~10 s
+> (`python verify.py`), full re-run is ~1 h.
+
+
 Every episode here is a **small, runnable package**: the claim, the numbers as machine-readable
 JSON/CSV, the scripts that produced them, and a verifier that fails if the published numbers stop
 matching the data. Point an AI agent at `AGENTS.md` in an episode folder and it can reproduce or
